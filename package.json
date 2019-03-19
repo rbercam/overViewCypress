@@ -1,0 +1,18 @@
+{
+  "name": "overviewcypress",
+  "version": "1.0.0",
+  "description": "OverviewCypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --record --key e67a0980-6399-443c-b398-4779a2bb8951 --reporter json"
+  },
+  "author": "Rafael Berçam",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.2.0",
+    "mocha": "^6.0.2",
+    "mochawesome": "^3.1.1"
+  },
+  "dependencies": {}
+}
