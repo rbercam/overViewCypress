@@ -38,9 +38,9 @@ jobs:
       # run tests!
       - run: node_modules/.bin/cypress run --record --key e67a0980-6399-443c-b398-4779a2bb8951
       - store_artifacts:
-        path: ~/google-search/cypress/screenshots
+          path: ~/google-search/cypress/screenshots
       - store_artifacts:
-        path: ~/google-search/cypress/videos
+          path: ~/google-search/cypress/videos
 
 
 
