@@ -36,9 +36,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run:
-        name: Google Search Rafael
-        command: node_modules/.bin/cypress run --record --key e67a0980-6399-443c-b398-4779a2bb8951
+      - run: node_modules/.bin/cypress run --record --key e67a0980-6399-443c-b398-4779a2bb8951
       - store_artifacts:
         path: ~/google-search/cypress/screenshots
       - store_artifacts:
